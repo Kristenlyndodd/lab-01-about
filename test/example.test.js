@@ -3,6 +3,9 @@
 
 const test = QUnit.test;
 
+test('should return true for yes-y strings', asssert => {
+    const yesString = isYes('yes');
+
 test('time to test a function', (expect) => {
     //Arrange
     // Set up your arguments and expectations

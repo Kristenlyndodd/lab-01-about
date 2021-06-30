@@ -15,9 +15,9 @@
       console.log(confirmed);
       if (confirmed){
           const name = prompt('What is your name?');
-          const ans1 = prompt('Do I hate sleeping?'); // NO is the CORRECT ANSWER
-          const ans2 = prompt('Do I hate squirrels?');
-          const ans3 = prompt('Do I like to bark at the UPS guy?');
+          const ans1 = prompt('Adding salt does nothing to your pasra?'); // NO is the CORRECT ANSWER
+          const ans2 = prompt('Cook pasta for roughly 8–10 minutes?');
+          const ans3 = prompt('Pasta should be soft with a slightly al dente centre?');
           console.log(name, ans1, ans2, ans3);
           
           let score = 0;

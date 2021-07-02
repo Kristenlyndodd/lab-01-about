@@ -15,18 +15,14 @@
       console.log(confirmed);
       if (confirmed){
           const name = prompt('What is your name?');
-          const ans1 = prompt('Adding salt does nothing to your pasra?'); // NO is the CORRECT ANSWER
+          const ans1 = prompt('Adding salt does nothing to your pasta?'); // NO is the CORRECT ANSWER
           const ans2 = prompt('Cook pasta for roughly 8–10 minutes?');
           const ans3 = prompt('Pasta should be soft with a slightly al dente centre?');
           console.log(name, ans1, ans2, ans3);
           
           let score = 0;
-          
-          // NO is the correct answer
-          // !isYes(ans1)
-          // !isYes('adfigjoaidjf')
-          // !false
-          // true
+      }
+         
           if (!isYes(ans1)) {
               // score++;
               score = score + 1;
